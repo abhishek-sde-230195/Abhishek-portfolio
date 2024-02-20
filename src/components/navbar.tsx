@@ -20,7 +20,7 @@ const NAV_MENU = [
   {
     name: "Page",
     icon: RectangleStackIcon,
-    href: "/",
+    href: "",
   },
   {
     name: "Account",
@@ -65,7 +65,7 @@ export function Navbar() {
   const router = useRouter();
 
   const onClick = () => {
-    router.push('/');
+    router.push('/#');
   };
 
   const handleOpen = () => setOpen((cur) => !cur);
