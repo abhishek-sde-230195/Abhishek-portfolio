@@ -1,9 +1,11 @@
 "use client";
+import { NextPage } from 'next';
+
 
 import CompaniesComponent from "../companies";
 
 
-export function Companies() {
+const Companies: NextPage = () => {
   return (
     <CompaniesComponent />
   );
