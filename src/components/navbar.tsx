@@ -20,7 +20,7 @@ const NAV_MENU = [
   {
     name: "Page",
     icon: RectangleStackIcon,
-    href: "/",
+    href: "/home",
   },
   {
     name: "Account",
@@ -41,7 +41,7 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   const router = useRouter();
   const onClick = () => {
-    router.replace(href ?? '/');
+    router.push(href ?? '/home');
   };
 
   return (
@@ -65,7 +65,7 @@ export function Navbar() {
   const router = useRouter();
 
   const onClick = () => {
-    router.push('/#');
+    router.push('/home');
   };
 
   const handleOpen = () => setOpen((cur) => !cur);
