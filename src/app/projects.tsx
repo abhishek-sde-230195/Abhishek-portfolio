@@ -5,14 +5,14 @@ import { Typography } from "@material-tailwind/react";
 
 const PROJECTS = [
   {
-    img: "/image/trading.jpg",
+    img: "image/trading.jpg",
     title: "iLEVEL Portfolio Monitoring Software",
     desc: `iLEVEL is the transformational solution that brings new transparency and insight to alternative investment portfolios.
       As the core of our private market solutions, iLEVEL helps general partners and limited partners streamline data collection, portfolio monitoring, analytics, valuation, and reporting.
       Manage the flow of data and create a single source of truth to make informed decisions and communicate transparently with investors, auditors, boards and other stakeholders.`,
   },
   {
-    img: "/image/nowoptics.jpg",
+    img: "image/nowoptics.jpg",
     title: "Now Optics",
     desc: `Now Optics are leaders in the eye health industry. Now Optics Tech is designed with a mobile-first approach, 
       ensuring a responsive and visually appealing experience across various devices.
@@ -21,7 +21,7 @@ const PROJECTS = [
       of today's tech-savvy consumers.`,
   },
   {
-    img: "/image/ssc.jpg",
+    img: "image/ssc.jpg",
     title: "SSC (Staff Selection Commission)",
     desc: "Staff Selection Commission (SSC) is an organisation under Government of India to recruit staff for various posts in the various ministries and departments of the government of India and in subordinate offices.",
   },

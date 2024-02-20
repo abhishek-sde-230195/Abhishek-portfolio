@@ -20,7 +20,7 @@ const NAV_MENU = [
   {
     name: "Page",
     icon: RectangleStackIcon,
-    href: "",
+    href: "/",
   },
   {
     name: "Account",
@@ -41,7 +41,7 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   const router = useRouter();
   const onClick = () => {
-    router.push(href ?? '/');
+    router.replace(href ?? '/');
   };
 
   return (

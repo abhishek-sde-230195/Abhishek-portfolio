@@ -26,7 +26,7 @@ export function Companies() {
               width={768}
               height={768}
               className={`w-40 ${customClassName ?? ''}`}
-              src={`/logos/logo-${logo}.${isJpg ? 'jpg': 'svg'}`}
+              src={`logos/logo-${logo}.${isJpg ? 'jpg': 'svg'}`}
               unoptimized
             />
           ))}
