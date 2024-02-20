@@ -1,12 +1,12 @@
 "use client";
 
-import Companies from "../companies";
+import CompaniesComponent from "../companies";
 
 
-export function CompanyPage() {
+export function Companies() {
   return (
-    <Companies />
+    <CompaniesComponent />
   );
 }
 
-export default CompanyPage;
+export default Companies;
