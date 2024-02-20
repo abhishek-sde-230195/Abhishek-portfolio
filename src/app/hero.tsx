@@ -52,7 +52,7 @@ function Hero() {
           width={1024}
           height={900}
           alt="team work"
-          src="/image/profile1.jpg"
+          src="image/profile.jpg"
           className="h-[36rem] lg:w-[80%] sm:w-full rounded-xl object-cover lg:justify-self-end"
         />
       </div>
