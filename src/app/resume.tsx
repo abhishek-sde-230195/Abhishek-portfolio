@@ -29,16 +29,17 @@ export function Resume() {
     <section className="px-8 py-24">
       <div className="container mx-auto grid w-full grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div className="col-span-1">
-          <Typography variant="h2" color="blue-gray">
+          <Typography placeholder = "" variant="h2" color="blue-gray">
             My Resume
           </Typography>
-          <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500">
+          <Typography placeholder = "" className="mb-4 mt-3 w-9/12 font-normal !text-gray-500">
             Highly skilled and creative Web Developer with 6+ years of
             experience in crafting visually stunning and functionally robust
             websites and web applications using latest frontend technologies. Also Have experience creating Miro-Frontend applications
             and publishing reusable npm pakages
           </Typography>
           <Button
+            placeholder = "" 
             variant="text"
             color="gray"
             className="flex items-center gap-2"

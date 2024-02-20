@@ -48,13 +48,14 @@ export function Skills() {
   return (
     <section className="px-8">
       <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase">
+        <Typography placeholder = "" color="blue-gray" className="mb-2 font-bold uppercase">
           my skills
         </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-4">
+        <Typography placeholder = "" variant="h1" color="blue-gray" className="mb-4">
           What I do
         </Typography>
         <Typography
+          placeholder = "" 
           variant="lead"
           className="mx-auto w-full !text-gray-500 lg:w-10/12"
         >

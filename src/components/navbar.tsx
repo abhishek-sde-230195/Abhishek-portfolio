@@ -47,6 +47,7 @@ function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
       <Typography
+        placeholder = ""
         as="a"
         onClick={onClick}
         variant="paragraph"
@@ -77,9 +78,10 @@ export function Navbar() {
   }, []);
 
   return (
-    <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50">
+    <MTNavbar placeholder = "" shadow={false} fullWidth className="border-0 sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between">
         <Typography
+          placeholder = ""
           color="blue-gray"
           className="text-lg font-bold cursor-pointer"
           onClick={onClick}
@@ -95,9 +97,10 @@ export function Navbar() {
           ))}
         </ul>
         <div className="hidden items-center gap-2 lg:flex">
-          <Button color="gray">Sign In</Button>
+          <Button placeholder = "" color="gray">Sign In</Button>
         </div>
         <IconButton
+          placeholder = ""
           variant="text"
           color="gray"
           onClick={handleOpen}
@@ -121,7 +124,7 @@ export function Navbar() {
             ))}
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button color="gray">Sign In</Button>
+            <Button placeholder = "" color="gray">Sign In</Button>
           </div>
         </div>
       </Collapse>

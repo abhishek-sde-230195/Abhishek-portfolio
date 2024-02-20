@@ -23,8 +23,8 @@ export function ProjectCard({ img, title, desc }: ProjectCardProps) {
   }, [isCollapsed])
   
   return (
-    <Card color="transparent" shadow={false}>
-      <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">
+    <Card placeholder = "" color="transparent" shadow={false}>
+      <CardHeader placeholder = "" floated={false} className="mx-0 mt-0 mb-6 h-48">
         <Image
           src={img}
           alt={title}
@@ -33,20 +33,20 @@ export function ProjectCard({ img, title, desc }: ProjectCardProps) {
           className="h-full w-full object-cover"
         />
       </CardHeader>
-      <CardBody className="p-0">
+      <CardBody placeholder = "" className="p-0">
         <a
           href="#"
           className="text-blue-gray-900 transition-colors hover:text-gray-800"
         >
-          <Typography variant="h5" className="mb-2">
+          <Typography placeholder = "" variant="h5" className="mb-2">
             {title}
           </Typography>
         </a>
-        <Typography className="mb-6 font-normal !text-gray-500">
+        <Typography placeholder = "" className="mb-6 font-normal !text-gray-500">
           {textDesc}
         </Typography>
         {desc.length > 230 && 
-          <Button color="gray" size="sm" onClick={onClick}>
+          <Button placeholder = "" color="gray" size="sm" onClick={onClick}>
           {isCollapsed ? 'read more' : 'collapse'}
         </Button>
         }
